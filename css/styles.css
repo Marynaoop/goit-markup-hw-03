@@ -12,12 +12,7 @@ body {
   font-family: "Roboto", sans-serif;
   background: var(--main-color);
 }
-p,
-h1,
-h2,
-h3 {
-  margin: 0px;
-}
+
 ul,
 ol {
   margin: 0px;
@@ -39,7 +34,6 @@ img {
   display: flex;
   justify-content: center;
   margin-bottom: 72px;
-  margin-top: 96px;
   gap: 24px;
 }
 .list-item {
@@ -71,7 +65,28 @@ img {
   display: flex;
   align-items: center;
 }
+.h-item {
+  list-style: none;
+  display: flex;
+  margin-right: 40px;
+}
 .header-item {
+  list-style: none;
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.header-items {
+  list-style: none;
+  display: flex;
+  margin-right: 0px;
+}
+.header-phone {
+  list-style: none;
+  display: flex;
+  margin-right: 24px;
+}
+.tel {
   list-style: none;
   display: flex;
 }
@@ -81,16 +96,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-color);
-  margin-right: 40px;
   display: flex;
   align-items: center;
 }
 .header-word {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  letter-spacing: 0.03em;
   color: var(--link-color);
 }
 .header-mail,
@@ -100,7 +109,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--header-color);
-  margin-right: 24px;
 }
 .main-section {
   background: var(--title-color);
@@ -154,9 +162,16 @@ img {
 .section {
   padding-top: 120px;
 }
+.section-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
 .section-item {
   width: 264px;
-  margin-right: 24px;
+  margin-bottom: 72px;
+  margin-top: 96px;
 }
 .section-title {
   font-weight: 700;
@@ -243,17 +258,9 @@ img {
   color: var(--link-color);
 }
 .footer-word {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  letter-spacing: 0.03em;
   color: var(--link-color);
 }
-.button-list {
-  margin-right: 24px;
-}
-.prev {
+.button-list .prev {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -290,6 +297,10 @@ img {
   background-color: var(--b-color);
   color: var(--main-color);
 }
+.s-container {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .topic {
   font-weight: 700;
   font-size: 20px;
@@ -303,7 +314,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  padding-bottom: 120px;
 }
 .list-box {
   border: 0, 5px solid #e7e9fc;
@@ -313,6 +323,7 @@ img {
 .topic-item {
   padding: 32px 16px 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .item {
   font-size: 16px;
