@@ -12,9 +12,19 @@ body {
   font-family: "Roboto", sans-serif;
   background: var(--main-color);
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
 
 ul,
-ol {
+ol,
+li {
   margin: 0px;
   padding-left: 0px;
 }
@@ -33,19 +43,18 @@ img {
   list-style: none;
   display: flex;
   justify-content: center;
-  margin-bottom: 72px;
   gap: 24px;
 }
 .list-item {
   background-color: #ffffff;
   list-style: none;
 }
-.header-navigation {
-  margin-top: 24px;
-  margin-bottom: 24px;
+.squady {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .link {
-  text-decoration: none;
+  margin-right: 76px;
 }
 .header {
   height: 72px;
@@ -56,6 +65,8 @@ img {
   margin-right: auto;
   display: flex;
   align-items: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .header > .container {
   display: flex;
@@ -64,27 +75,24 @@ img {
 .header-list {
   display: flex;
   align-items: center;
+  gap: 40px;
+  text-decoration: none;
 }
 .h-item {
   list-style: none;
   display: flex;
-  margin-right: 40px;
 }
 .header-item {
   list-style: none;
   display: flex;
-  margin-left: 40px;
-  margin-right: 40px;
 }
 .header-items {
   list-style: none;
   display: flex;
-  margin-right: 0px;
 }
 .header-phone {
   list-style: none;
   display: flex;
-  margin-right: 24px;
 }
 .tel {
   list-style: none;
@@ -98,6 +106,7 @@ img {
   color: var(--title-color);
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 .header-word {
   color: var(--link-color);
@@ -161,6 +170,7 @@ img {
 }
 .section {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .section-list {
   list-style: none;
@@ -170,8 +180,6 @@ img {
 }
 .section-item {
   width: 264px;
-  margin-bottom: 72px;
-  margin-top: 96px;
 }
 .section-title {
   font-weight: 700;
@@ -190,8 +198,8 @@ img {
   margin: 0 auto;
 }
 .about {
-  padding-bottom: 120px;
-  padding-top: 120px;
+  padding-top: 0px;
+  padding-bottom: 176px;
 }
 .team {
   background: var(--background-color);
@@ -217,8 +225,6 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--title-color);
-  margin-top: 32px;
-  margin-bottom: 8px;
 }
 .title-paragraph {
   font-size: 16px;
@@ -226,7 +232,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--header-color);
-  margin-bottom: 32px;
+  margin: 8px;
 }
 .footer {
   background: var(--title-color);
@@ -274,6 +280,7 @@ img {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   padding: 12px 24px;
+  margin-bottom: 72px;
 }
 .prev:hover,
 .prev:focus {
