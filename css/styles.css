@@ -45,6 +45,13 @@ img {
   justify-content: center;
   gap: 24px;
 }
+.snap {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
 .list-item {
   background-color: #ffffff;
   list-style: none;
@@ -55,6 +62,7 @@ img {
 }
 .link {
   margin-right: 76px;
+  text-decoration: none;
 }
 .header {
   height: 72px;
@@ -118,6 +126,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--header-color);
+  text-decoration: none;
 }
 .main-section {
   background: var(--title-color);
@@ -199,7 +208,7 @@ img {
 }
 .about {
   padding-top: 0px;
-  padding-bottom: 176px;
+  padding-bottom: 120px;
 }
 .team {
   background: var(--background-color);
@@ -232,7 +241,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--header-color);
-  margin: 8px;
+  margin-top: 8px;
 }
 .footer {
   background: var(--title-color);
@@ -280,7 +289,6 @@ img {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   padding: 12px 24px;
-  margin-bottom: 72px;
 }
 .prev:hover,
 .prev:focus {
